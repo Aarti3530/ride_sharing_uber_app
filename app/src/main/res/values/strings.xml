@@ -15,4 +15,7 @@
     <string name="trip_end">Trip End</string>
     <string name="take_next_ride">Take Next Ride</string>
     <string name="routes_not_available_choose_different_locations">Routes not available, choose different locations</string>
+    <string name="your_cab_has_arrived">Your Cab Has Arrived</string>
+    <string name="route_not_available_choose_different_locations">Routes are Not Available Choose Different Routes</string>
+    <string name="location_permission_not_granted">Location Permission Not Granted</string>
 </resources>

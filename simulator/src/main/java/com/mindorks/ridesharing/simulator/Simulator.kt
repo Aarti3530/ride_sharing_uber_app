@@ -63,7 +63,7 @@ object Simulator {
         }
         jsonObjectToPush.put("locations", jsonArray)
         mainThread.post {
-            webSocketListener.onMessage(jsonObjectToPush.toString())
+            webSocketListener.run { onMessage(jsonObjectToPush.toString()) }
         }
     }
 
